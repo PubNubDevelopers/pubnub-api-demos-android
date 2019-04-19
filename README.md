@@ -5,8 +5,8 @@
 Be sure to insert your PubNub API Keys in each of the MainActivity.kt files in this repository.
 
 ```java
-    pnConfiguration.subscribeKey = "YOUR PUBNUB PUBLISH KEY HERE"
-    pnConfiguration.publishKey = "YOUR PUBNUB SUBSCRIBE KEY HERE"
+pnConfiguration.subscribeKey = "YOUR PUBNUB SUBSCRIBE KEY HERE"
+pnConfiguration.publishKey = "YOUR PUBNUB PUBLISH KEY HERE"
 ```
 
 PubNub accounts are **free** up to 1 million transactions per month.

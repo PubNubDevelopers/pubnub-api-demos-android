@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
         val subscribeText = findViewById<TextView>(R.id.textViewSubscribe)
 
         val pnConfiguration = PNConfiguration()
-        pnConfiguration.subscribeKey = "sub-c-87dbd99c-e470-11e8-8d80-3ee0fe19ec50"
-        pnConfiguration.publishKey = "pub-c-09557b6c-9513-400f-a915-658c0789e264"
-        pnConfiguration.secretKey = "sec-c-MWQ3ZTJlZDMtNTQ5OC00OTgyLThjNGUtYmE2ZDhkMTFkNDE4"
+        pnConfiguration.subscribeKey = "YOUR PUBNUB SUBSCRIBE KEY HERE"
+        pnConfiguration.publishKey = "YOUR PUBNUB PUBLISH KEY HERE"
+        pnConfiguration.secretKey = "YOUR PUBNUB SECRET KEY HERE"
         pnConfiguration.isSecure = true
         pnConfiguration.authKey = "auth-key"
         val pubNub = PubNub(pnConfiguration)
